@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@1,200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:steelblue;
+    font-family: 'Mulish';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container h2{
+    text-align: center;
+    color: #fff;
+}
+
+#textarea{
+    margin-top: 20px;
+    width: 100%;
+    font-family: inherit;
+    height: 10vh;
+    border: none;
+    color: #000;
+    font-size: 18px;
+    outline: none;
+    font-weight: bold;
+}
+
+.tags{
+    margin-top: 20px;
+}
+.tag{
+    border-radius: 10px;
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.tags .highlight{
+    background-color: darkblue;
+}
